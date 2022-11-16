@@ -1,0 +1,91 @@
+/* Reset */
+
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	box-sizing: border-box;
+}
+
+/* Generics */
+
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+
+header {
+    background-color: #0084fd;
+    height: 60px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+/* Utils */
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+
+}
+
+.flex-sp-bt {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.g-20 {
+    gap: 20px;
+}
+
+.mb-40 {
+    margin-bottom: 40px;
+}
+
+/* Header */
+
+.sidebar {
+    height: 100%;
+}
+
+/* SECTION */
+
+.row  {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -5px;
+}
+
+.col-66 {
+    flex-basis: calc(100% / 3 * 2);
+    padding: 5px;
+}
+
+.col-33 {
+    flex-basis: calc(100% / 3);
+    padding: 5px;
+}
+
+.card {
+    min-height: 250px;
+    background-color: #b5ddff;
+    border-radius: 20px;
+}
