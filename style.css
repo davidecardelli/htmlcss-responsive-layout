@@ -84,8 +84,28 @@ img {
     padding: 5px;
 }
 
+.col-50 {
+    flex-basis: calc(100% / 2);
+    padding: 5px;
+}
+
 .card {
     min-height: 250px;
     background-color: #b5ddff;
     border-radius: 20px;
+}
+
+.card.bg-violet{
+    background-color: #9792e4 ;
+    margin-bottom: 10px;
+}
+
+.card.bg-white{
+    background-color: white ;
+    margin-bottom: 10px;
+}
+
+.planning {
+   background-color:#9792e4;
+   min-height: 500px;
 }
